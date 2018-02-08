@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head>
+<title>Calculator</title><meta charset="utf-8">
+<script type="text/javascript">
+
+function square(){
+	var num= document.getElementById("n1");
+	var num2= document.getElementById("n2");
+	//num.value = num.value * num.value;
+	num2.value = num.value * num.value;
+}
+</script>
+</head>
+<body>
+	Number x:  
+	<input type ="text" id="n1"><p>
+	Cuadrado x * x:
+	<input type ="text" id="n2"><p>
+	
+	<button onclick="square()"> x<sup>2</sup> </button>
+</body>
+</html>
+
